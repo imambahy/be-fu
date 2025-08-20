@@ -15,7 +15,7 @@ model Sample {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@map("samples")
+  @@map("sample")
 }
 
 model User {
@@ -26,5 +26,5 @@ model User {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@map("users")
+  @@map("user")
 }
